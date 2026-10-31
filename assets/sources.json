@@ -1,0 +1,23 @@
+{
+  "port-aerial.jpg": {
+    "source": "https://unsplash.com/photos/UKQUJ_AvB4o",
+    "use": "Illustrative port photograph, not a SEAQR deployment"
+  },
+  "hardware_and_detection_images": {
+    "source": "CEO-provided SEAQR pitch deck, 22 October 2026",
+    "slides": [
+      4,
+      14,
+      17
+    ]
+  },
+  "reviewed_demo_assets": {
+    "source": "Curated local model outputs and vessel-validation images, plus the CEO-linked Vimeo buoy example",
+    "provenance": "Internal review manifests are maintained outside the public site.",
+    "processing": "Original prediction overlays and playback cadence retained; detail crops are identified in the relevant player."
+  },
+  "hero/observation-film.mp4": {
+    "source": "assets/demos/whales/whale-surface-pair.mp4",
+    "processing": "Whole-frame H264 web encoding; original playback cadence and model prediction overlays retained. Muted decorative background film; not a performance benchmark."
+  }
+}
