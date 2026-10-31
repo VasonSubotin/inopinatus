@@ -134,7 +134,8 @@ function openVideo(id, opener) {
     dialog.querySelector('.dialog-player').append(image);
   } else if (clip.provider === 'vimeo') {
     const iframe = document.createElement('iframe');
-    iframe.src = `https://player.vimeo.com/video/${clip.vimeoId}?autoplay=1&dnt=1`;
+    const start = Number.isFinite(clip.startSeconds) && clip.startSeconds > 0 ? `#t=${clip.startSeconds}s` : '';
+    iframe.src = `https://player.vimeo.com/video/${clip.vimeoId}?autoplay=1&dnt=1${start}`;
     iframe.title = clip.title;
     iframe.allow = 'autoplay; fullscreen; picture-in-picture';
     iframe.allowFullscreen = true;

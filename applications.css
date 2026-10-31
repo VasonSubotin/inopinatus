@@ -1,5 +1,36 @@
 /* Application stories and the camera-to-field-system hardware guide. */
 figure{margin:0}
+.defense-hardware-display>img{max-height:420px;height:420px;width:100%;object-fit:contain;mix-blend-mode:multiply}
+.defense-problem{background:var(--navy);color:var(--paper)}
+.defense-problem .problem-layout>div>p:not(.eyebrow),.defense-problem .problem-rows p{color:#b5c5ce}
+.defense-problem .problem-rows article{border-color:#ffffff26}
+.defense-problem .problem-rows .mono{color:#e5a283}
+.defense-problem .problem-layout h2{font-size:clamp(38px,4.1vw,59px)}
+.defense-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:55px;border-block:1px solid #bdc9c2}
+.defense-flow article{padding:30px 24px;border-left:1px solid var(--line)}
+.defense-flow article:first-child{border-left:0;padding-left:0}
+.defense-flow .mono{font-size:9px;color:#8b4b2e}
+.defense-flow h3{font-size:23px;letter-spacing:-.6px;line-height:1.2;margin:20px 0 14px}
+.defense-flow p{font-size:13px;color:var(--muted)}
+.solution-bottom{display:flex;align-items:start;justify-content:space-between;gap:55px;margin-top:30px}
+.solution-bottom>p{font-size:12px;color:var(--muted);max-width:650px}
+.solution-bottom .text-link{margin-top:0;white-space:nowrap;font-size:12px}
+.defense-options .discipline-grid .text-link{font-size:12px}
+.defense-options .intro-grid h2{margin-top:25px}
+.defense-partners{background:var(--navy);color:var(--paper)}
+.defense-partners>.wrap{display:grid;grid-template-columns:1fr 1fr;gap:120px}
+.defense-partners h2{font-size:clamp(38px,4vw,58px);letter-spacing:-2px;line-height:1.08;margin:25px 0}
+.defense-partners .wrap>div>p:not(.eyebrow){font-size:16px;max-width:490px;color:#b5c5ce}
+.partner-list article{border-top:1px solid #ffffff30;padding:23px 0}
+.partner-list h3{font-size:23px;letter-spacing:-.6px;margin-bottom:12px}
+.partner-list p{font-size:14px;color:#b5c5ce}
+.hardware-concept-image{background:#e4e8df;padding:30px}
+.hardware-concept-image img{object-fit:contain!important;mix-blend-mode:multiply}
+.platform-tabs{grid-template-columns:repeat(3,1fr)}
+.defense-about .intro-grid h2,.defense-solution .intro-grid h2{font-size:clamp(36px,3.6vw,54px)}
+@media(max-width:1000px){.defense-partners>.wrap{gap:60px}.defense-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.defense-flow article:nth-child(3){border-left:0;padding-left:0}.defense-flow article:nth-child(n+3){border-top:1px solid var(--line)}.solution-bottom{flex-direction:column;gap:25px}.platform-tabs{grid-template-columns:repeat(3,minmax(130px,1fr))}}
+@media(max-width:800px){.defense-partners>.wrap{grid-template-columns:1fr;gap:40px}.defense-hardware-display>img{height:350px}.defense-partners .wrap>div>p:not(.eyebrow){max-width:650px}.defense-flow h3{font-size:22px}.hardware-concept-image{padding:22px}.platform-tabs{grid-template-columns:repeat(3,minmax(100px,1fr))}}
+@media(max-width:480px){.defense-flow{grid-template-columns:1fr}.defense-flow article{border-left:0;padding:25px 0}.defense-flow article+article{border-top:1px solid var(--line)}.solution-bottom .text-link{white-space:normal}.defense-partners h2{font-size:40px}.defense-problem .problem-layout h2{font-size:39px}.defense-hardware-display>img{height:300px}.footer-bottom>.mono{font-size:7px}}
 .observation-problem{border-bottom:1px solid var(--line)}
 .problem-layout{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(40px,8vw,140px)}
 .problem-layout h2{font-size:clamp(38px,4.2vw,64px);line-height:1.08;letter-spacing:-2.5px;margin:28px 0}

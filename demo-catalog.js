@@ -1,5 +1,83 @@
 window.SEAQR_DEMOS = [
   {
+    "id": "aerial-classification",
+    "category": "airspace",
+    "label": "Airspace / Company presentation",
+    "title": "Aerial object classification",
+    "description": "A recorded aerial sequence with the original model’s class labels and confidence overlays.",
+    "alt": "Aerial object with a recorded classification overlay from the company deck",
+    "duration": "63 s",
+    "provider": "vimeo",
+    "vimeoId": "1215672583",
+    "poster": "assets/demos/airspace/aerial-classification.webp",
+    "note": "Playback begins at 12 seconds in the full recording linked from the CEO’s presentation. Original labels are model predictions. Model version, capture hardware, and independent evaluation results are unspecified. This is a recorded example, not evidence of a deployed defense system.",
+    "startSeconds": 12
+  },
+  {
+    "id": "aerial-tracking",
+    "category": "airspace",
+    "label": "Airspace / Company presentation",
+    "title": "An aerial track across frames",
+    "description": "A short company-presentation recording showing an aerial detection box and its associated trajectory.",
+    "alt": "Aerial detection and trajectory overlay in the company presentation",
+    "duration": "7 s",
+    "provider": "vimeo",
+    "vimeoId": "1215671713",
+    "poster": "assets/demos/airspace/aerial-tracking.webp",
+    "note": "External recording linked from the CEO’s presentation. The scene contains military equipment. Detection and trajectory overlays are retained; the clip does not establish identification accuracy, range, or operational readiness."
+  },
+  {
+    "id": "measurement-continuity",
+    "category": "small-targets",
+    "label": "Point tracking / Recorded research",
+    "title": "Measurements and predictions",
+    "description": "Source imagery beside saved tracking output, including intervals with a measured point and predicted-only positions.",
+    "alt": "Night-time source imagery beside original green measurements and amber predictions",
+    "duration": "6.1 s",
+    "src": "assets/demos/airspace/measurement-continuity.mp4",
+    "poster": "assets/demos/airspace/measurement-continuity.webp",
+    "comparison": true,
+    "note": "A selected native-pixel review crop from the verified v34 development experiment. Green circles show current measurements; amber squares show predictions. Object identity is unknown. Playback is nominal source time, not processing speed."
+  },
+  {
+    "id": "night-scene-comparison",
+    "category": "small-targets",
+    "label": "Point tracking / Recorded research",
+    "title": "Tracking against scene clutter",
+    "description": "A longer source-and-output comparison showing multiple algorithm responses in a low-light scene.",
+    "alt": "Low-light scene with recorded measurements and predictions beside the unmodified source",
+    "duration": "17.1 s",
+    "src": "assets/demos/airspace/night-scene-comparison.mp4",
+    "poster": "assets/demos/airspace/night-scene-comparison.webp",
+    "comparison": true,
+    "note": "Selected review crop; all qualifying states inside the original crop are retained. Responses can include scene lights, clutter, and noise. These markers are not verified aircraft or drone labels. Recorded v34 research output; no speed or contrast changes."
+  },
+  {
+    "id": "daylight-comparison",
+    "category": "small-targets",
+    "label": "Small targets / Research",
+    "title": "A small signal, followed over time",
+    "description": "Original imagery beside recorded tracking output: a closer look at how the system follows a small moving image point.",
+    "alt": "Original daylight scene beside recorded green tracking markers",
+    "duration": "14 s",
+    "src": "assets/demos/small-targets/daylight-comparison.mp4",
+    "poster": "assets/demos/small-targets/daylight-comparison.webp",
+    "comparison": true,
+    "note": "Selected detail view from full-frame processing. Green circles indicate associated measurements; amber squares indicate predictions. Object class is unknown. Playback is recorded and does not establish live processing speed."
+  },
+  {
+    "id": "night-tracking-detail",
+    "category": "small-targets",
+    "label": "Small targets / Experimental",
+    "title": "Point tracking in low light",
+    "description": "A detail view of a small measured image point followed across a low-light sequence.",
+    "alt": "A small bright point with an experimental green tracking marker",
+    "duration": "12 s",
+    "src": "assets/demos/small-targets/night-tracking-detail.mp4",
+    "poster": "assets/demos/small-targets/night-tracking-detail.webp",
+    "note": "Selected detail crop from the latest locally available experimental tracking export. The physical object class is unknown. This qualitative research example is not a production accuracy or real-time benchmark."
+  },
+  {
     "id": "whale-surface-pair",
     "category": "whales",
     "label": "Marine life / YOLO",
@@ -25,19 +103,6 @@ window.SEAQR_DEMOS = [
     "note": "External video from the company presentation, loaded from Vimeo on request. Model version is unspecified. This example is not attributed to the latest vessel model."
   },
   {
-    "id": "daylight-comparison",
-    "category": "small-targets",
-    "label": "Small targets / Research",
-    "title": "A small signal, followed over time",
-    "description": "Original imagery beside recorded tracking output: a closer look at how the system follows a small moving image point.",
-    "alt": "Original daylight scene beside recorded green tracking markers",
-    "duration": "14 s",
-    "src": "assets/demos/small-targets/daylight-comparison.mp4",
-    "poster": "assets/demos/small-targets/daylight-comparison.webp",
-    "comparison": true,
-    "note": "Selected detail view from full-frame processing. Green circles indicate associated measurements; amber squares indicate predictions. Object class is unknown. Playback is recorded and does not establish live processing speed."
-  },
-  {
     "id": "vessel-validation-yacht",
     "category": "vessels",
     "label": "Vessels / Validation still",
@@ -61,18 +126,6 @@ window.SEAQR_DEMOS = [
     "src": "assets/demos/whales/whale-dive-sequence.mp4",
     "poster": "assets/demos/whales/whale-dive-sequence.webp",
     "note": "Selected whale-specialist recorded output. This is frame-by-frame detection, not persistent identity tracking. Original model behavior is preserved."
-  },
-  {
-    "id": "night-tracking-detail",
-    "category": "small-targets",
-    "label": "Small targets / Experimental",
-    "title": "Point tracking in low light",
-    "description": "A detail view of a small measured image point followed across a low-light sequence.",
-    "alt": "A small bright point with an experimental green tracking marker",
-    "duration": "12 s",
-    "src": "assets/demos/small-targets/night-tracking-detail.mp4",
-    "poster": "assets/demos/small-targets/night-tracking-detail.webp",
-    "note": "Selected detail crop from the latest locally available experimental tracking export. The physical object class is unknown. This qualitative research example is not a production accuracy or real-time benchmark."
   },
   {
     "id": "vessel-validation-ships",

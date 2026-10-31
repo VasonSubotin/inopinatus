@@ -47,7 +47,7 @@
   object-position: center;
 }
 .hero-film .hero-image {
-  background: url('assets/demos/whales/whale-surface-pair.webp') center / cover no-repeat;
+  background: url('assets/hero/airspace-observation.webp') center / cover no-repeat;
   z-index: 0;
 }
 .hero-video { opacity: 0; transition: opacity 1.2s ease; z-index: 1; }

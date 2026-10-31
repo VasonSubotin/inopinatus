@@ -19,5 +19,21 @@
   "hero/observation-film.mp4": {
     "source": "assets/demos/whales/whale-surface-pair.mp4",
     "processing": "Whole-frame H264 web encoding; original playback cadence and model prediction overlays retained. Muted decorative background film; not a performance benchmark."
+  },
+  "aerial_demonstrations": {
+    "source": "CEO-provided presentation, slide 15",
+    "videos": [
+      "https://vimeo.com/1215672583",
+      "https://vimeo.com/1215671713"
+    ],
+    "presentation": "Standard Vimeo embeds; original labels remain model predictions. Capture hardware and model versions unspecified."
+  },
+  "additional_point_tracking": {
+    "source": "Local v34 source-and-output presentation exports",
+    "presentation": "Selected native-pixel crops, source timing and original overlays retained. Physical object identity unverified."
+  },
+  "hero/airspace-observation.mp4": {
+    "source": "Existing daylight-comparison recording, output panel",
+    "processing": "Decorative review crop and web encoding; no overlay, contrast, or speed changes. Recorded point-tracking research, not a drone-identification benchmark."
   }
 }
