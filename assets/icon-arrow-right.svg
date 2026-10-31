@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="26.84" height="26.84" viewBox="0 0 26.84 26.84" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Group 26">
+<g id="Vector">
+<use xlink:href="#stroke0_0_16" fill="white"/>
+<mask id="stroke1_0_16" maskUnits="userSpaceOnUse" x="-0.5" y="-0.5" width="28" height="28" fill="black">
+<rect fill="white" x="-0.5" y="-0.5" width="28" height="28"/>
+<use xlink:href="#stroke0_0_16"/>
+</mask>
+<path d="M13.42 26.34C6.276 26.34 0.5 20.564 0.5 13.42C0.5 6.276 6.276 0.5 13.42 0.5C20.564 0.5 26.34 6.276 26.34 13.42C26.34 20.564 20.564 26.34 13.42 26.34ZM13.42 2.02C7.112 2.02 2.02 7.112 2.02 13.42C2.02 19.728 7.112 24.82 13.42 24.82C19.728 24.82 24.82 19.728 24.82 13.42C24.82 7.112 19.728 2.02 13.42 2.02Z" stroke="white" mask="url(#stroke1_0_16)"/>
+</g>
+<g id="Vector_2">
+<path d="M13.1919 20.7919L12.1279 19.7279L18.4359 13.4199L12.1279 7.11185L13.1919 6.04785L20.5639 13.4199L13.1919 20.7919Z" fill="white"/>
+<mask id="stroke2_0_16" maskUnits="userSpaceOnUse" x="11.1279" y="5.04785" width="11" height="17" fill="black">
+<rect fill="white" x="11.1279" y="5.04785" width="11" height="17"/>
+<path d="M13.1919 20.7919L12.1279 19.7279L18.4359 13.4199L12.1279 7.11185L13.1919 6.04785L20.5639 13.4199L13.1919 20.7919Z"/>
+</mask>
+<path d="M13.1919 20.7919L12.1279 19.7279L18.4359 13.4199L12.1279 7.11185L13.1919 6.04785L20.5639 13.4199L13.1919 20.7919Z" stroke="white" mask="url(#stroke2_0_16)"/>
+</g>
+<path id="Vector_3" d="M6.33 12.41H19.75V14.43H6.33V12.41Z" fill="white" stroke-width="0.5" stroke="white"/>
+</g>
+<defs>
+<path id="stroke0_0_16" d="M13.42 26.34C6.276 26.34 0.5 20.564 0.5 13.42C0.5 6.276 6.276 0.5 13.42 0.5C20.564 0.5 26.34 6.276 26.34 13.42C26.34 20.564 20.564 26.34 13.42 26.34ZM13.42 2.02C7.112 2.02 2.02 7.112 2.02 13.42C2.02 19.728 7.112 24.82 13.42 24.82C19.728 24.82 24.82 19.728 24.82 13.42C24.82 7.112 19.728 2.02 13.42 2.02Z"/>
+</defs>
+</svg>
