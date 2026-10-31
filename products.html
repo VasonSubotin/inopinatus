@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products — SEAQR</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/logo-nav.png" alt="SEAQR" /></a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="teams.html">Team</a>
+        <a href="news.html">News</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="prod-hero">
+    <div class="prod-hero-bg" aria-hidden="true"><img src="assets/products-hero-bg.png" alt="" /></div>
+    <div class="container prod-hero-inner">
+      <h1>Products</h1>
+      <p class="prod-hero-sub">A Unified AI-Powered System for Real-Time Insight and Smarter Decisions</p>
+      <div class="prod-cat-row">
+        <a class="prod-cat-card" href="#hardware">
+          <img src="assets/prod-cat-hw.png" alt="Hardware" />
+          <span class="prod-cat-badge"><img src="assets/icon-chip.svg" alt="" /> Hardware</span>
+        </a>
+        <a class="prod-cat-card" href="#software">
+          <img src="assets/prod-cat-sw.png" alt="Software" />
+          <span class="prod-cat-badge"><img src="assets/icon-software.svg" alt="" /> Software</span>
+        </a>
+        <a class="prod-cat-card" href="#ai-models">
+          <img src="assets/prod-cat-ai.png" alt="AI Models" />
+          <span class="prod-cat-badge"><img src="assets/icon-brain-ai.svg" alt="" /> AI models</span>
+        </a>
+      </div>
+      <p class="prod-hero-copy">Our AI-powered cameras and smart sensors capture high-resolution visual and environmental data in real time, even in the most demanding conditions. This data flows seamlessly into our cloud-based analytics platform, which transforms raw inputs into actionable insights through intuitive dashboards, automated reports, and powerful integrations. At the core of our ecosystem, advanced AI models enable precise object detection, intelligent classification, and predictive intelligence—delivering the accuracy and foresight needed to drive smarter decisions.</p>
+    </div>
+  </section>
+
+  <!-- Hardware -->
+  <section class="prod-section" id="hardware">
+    <div class="container">
+      <div class="prod-section-head">
+        <p class="eyebrow">Hardware</p>
+        <h2 class="section-title">Precision Sensors &amp; Devices</h2>
+        <p class="section-copy">Our Hardware Ecosystem Includes AI-Powered Cameras, Smart Sensors, And Communication Devices Designed For Real-Time Data Collection In Demanding Maritime And Industrial Environments.</p>
+      </div>
+      <div class="prod-highlight">
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> Data Collection</p>
+          <p>Physical devices for real-time environmental monitoring and data capture.</p>
+        </div>
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> Industrial Grade</p>
+          <p>Rugged hardware designed for harsh marine and outdoor conditions.</p>
+        </div>
+      </div>
+      <div class="prod-grid">
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-1.png" alt="AI Cameras" /></div><h3>AI Cameras</h3><p>ZWO ASI662MC high-FPS cameras for precision monitoring</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-2.png" alt="IR Thermal Camera" /></div><h3>IR Thermal Camera</h3><p>Boson infrared cameras for night and thermal imaging</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-3.png" alt="Navigation Sensors" /></div><h3>Navigation Sensors</h3><p>GPS, compass, gyroscope, accelerometer &amp; magnetometer</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-4.png" alt="ADS-B Receiver" /></div><h3>ADS-B Receiver</h3><p>FlightAware receiver for real-time aircraft tracking</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-5.png" alt="Wind Sensors" /></div><h3>Wind Sensors</h3><p>Ultrasonic anemometers for precise wind measurement</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/hw-6.png" alt="LiDAR Module" /></div><h3>LiDAR Module</h3><p>3D scanning sensors for distance and object detection</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Software -->
+  <section class="prod-section prod-section-tint" id="software">
+    <div class="container">
+      <div class="prod-section-head">
+        <p class="eyebrow">Software</p>
+        <h2 class="section-title">Intelligent Data Platform</h2>
+        <p class="section-copy">Our Software Suite Processes, Analyzes, And Visualizes Data From Connected Hardware. From Cloud-Based Processing To AI Model Pipelines, We Deliver Insights That Drive Smarter Decisions.</p>
+      </div>
+      <div class="prod-highlight prod-highlight-white">
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> Data Analytics</p>
+          <p>Transform raw sensor data into actionable insights through powerful dashboards</p>
+        </div>
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> AI Services</p>
+          <p>Model training, inference, and predictive intelligence at scale.</p>
+        </div>
+      </div>
+      <div class="prod-grid">
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-1.png" alt="Cloud Data Processing" /></div><h3>Cloud Data Processing</h3><p>Real-time data streaming and cloud-based processing infrastructure</p></article>
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-2.png" alt="AI Training Pipeline" /></div><h3>AI Training Pipeline</h3><p>Model training and inference systems for machine learning</p></article>
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-3.png" alt="Analytics Dashboard" /></div><h3>Analytics Dashboard</h3><p>Interactive dashboards with KPIs, reports, and visualizations</p></article>
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-4.png" alt="Monitoring UI" /></div><h3>Monitoring UI</h3><p>Live camera feeds, status indicators, and alert systems</p></article>
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-5.png" alt="APIs & Integrations" /></div><h3>APIs &amp; Integrations</h3><p>RESTful APIs and webhooks for seamless third-party integration</p></article>
+        <article class="prod-item prod-item-white"><div class="prod-item-media"><img src="assets/sw-6.png" alt="Maritime Applications" /></div><h3>Maritime Applications</h3><p>Ship, buoy, and platform tracking with real-time AI outputs</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Models -->
+  <section class="prod-section" id="ai-models">
+    <div class="container">
+      <div class="prod-section-head">
+        <p class="eyebrow">AI Models</p>
+        <h2 class="section-title">Intelligent Detection &amp; Classification</h2>
+        <p class="section-copy">Our AI systems are trained to detect and track objects above water, focusing on two main segments: species tracking and collision prevention.</p>
+      </div>
+      <div class="prod-highlight">
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> Species Tracking</p>
+          <p>Identify whales, dolphins, seals, and sea birds with high accuracy.</p>
+        </div>
+        <div class="prod-highlight-item">
+          <p class="prod-highlight-title"><img src="assets/icon-bullet.svg" alt="" /> Collision Prevention</p>
+          <p>Real-time detection of vessels, debris, icebergs, and hazards.</p>
+        </div>
+      </div>
+      <div class="prod-grid">
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-1.png" alt="Mammals Tracking" /></div><h3>Mammals Tracking</h3><p>Detect and track marine mammals in real-time</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-2.png" alt="Buoy & Animals" /></div><h3>Buoy &amp; Animals</h3><p>Identify buoys and marine life simultaneously</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-3.png" alt="Multi-tracking Long Distance" /></div><h3>Multi-tracking Long Distance</h3><p>Track multiple objects at extended ranges</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-4.png" alt="Lighthouses & Ships" /></div><h3>Lighthouses &amp; Ships</h3><p>Recognize and classify maritime structures</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-5.png" alt="Close-proximity Tracking" /></div><h3>Close-proximity Tracking</h3><p>High-precision tracking for nearby objects</p></article>
+        <article class="prod-item"><div class="prod-item-media"><img src="assets/ai-6.png" alt="Wind Farms" /></div><h3>Wind Farms</h3><p>Monitor offshore wind infrastructure</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proven Performance -->
+  <section class="proven">
+    <div class="proven-bg" aria-hidden="true"><img src="assets/proven-bg.png" alt="" /></div>
+    <div class="container proven-inner">
+      <h2>Proven Performance</h2>
+      <div class="proven-grid">
+        <article class="proven-card">
+          <div class="proven-icon"><img class="proven-ring" src="assets/proven-ellipse.svg" alt="" /><img class="proven-glyph" src="assets/proven-shield.svg" alt="" /></div>
+          <strong>99%+</strong>
+          <span>Detection accuracy across all conditions</span>
+        </article>
+        <article class="proven-card">
+          <div class="proven-icon"><img class="proven-ring" src="assets/proven-ellipse.svg" alt="" /><img class="proven-glyph" src="assets/proven-flash.svg" alt="" /></div>
+          <strong>120 FPS</strong>
+          <span>Real-time processing speed</span>
+        </article>
+        <article class="proven-card">
+          <div class="proven-icon"><img class="proven-ring" src="assets/proven-ellipse.svg" alt="" /><img class="proven-glyph" src="assets/proven-clock.svg" alt="" /></div>
+          <strong>24/7</strong>
+          <span>Continuous operation with 99.9% uptime</span>
+        </article>
+        <article class="proven-card">
+          <div class="proven-icon"><img class="proven-ring" src="assets/proven-ellipse.svg" alt="" /><img class="proven-glyph" src="assets/proven-chart.svg" alt="" /></div>
+          <strong>10B+</strong>
+          <span>Objects detected monthly worldwide</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support -->
+  <section class="support-section">
+    <div class="container">
+      <h2>Complete Support &amp; Services</h2>
+      <div class="support-grid">
+        <article class="support-card">
+          <h3>Implementation &amp; Training</h3>
+          <p>Our team of experts provides comprehensive on-site installation, system integration, and staff training to ensure smooth deployment and maximum value from day one.</p>
+        </article>
+        <article class="support-card">
+          <h3>24/7 Technical Support</h3>
+          <p>Access our global support network anytime, anywhere. From troubleshooting to optimization, our engineers are ready to help you maintain peak performance.</p>
+        </article>
+        <article class="support-card">
+          <h3>Continuous Updates</h3>
+          <p>Benefit from regular software updates and new AI models. Our products get smarter over time with enhanced capabilities and features delivered seamlessly.</p>
+        </article>
+        <article class="support-card">
+          <h3>Custom Solutions</h3>
+          <p>Need something unique? Our engineering team can develop custom detection models and hardware configurations tailored to your specific requirements.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="join-cta">
+    <div class="container join-cta-inner">
+      <h2>Ready to Transform Your Operations?</h2>
+      <p>Contact us today to discuss how SEAQR products can revolutionize your business.</p>
+      <form class="join-cta-form" action="mailto:info@seaqr.org" method="get">
+        <input type="email" name="email" required placeholder="Enter your email address" />
+        <button type="submit" class="join-cta-btn">
+          <span>Get Started</span>
+          <img src="assets/icon-arrow-right.svg" alt="" />
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-footer.png" alt="SEAQR" />
+          <h3>SEAQR is a registered 501(c)(3) non-profit organization</h3>
+          <p>All donations are tax deductible. Federal Tax ID: 83-0784739</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="teams.html">Teams</a>
+          <a href="projects.html">Projects</a>
+          <a href="products.html">Products</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p class="contact-line"><img src="assets/icon-location.svg" alt="" /><span>P.O. Box 27134, San Francisco, CA 94127</span></p>
+          <a class="contact-line" href="mailto:info@seaqr.org"><img src="assets/icon-email.svg" alt="" /><span>info@seaqr.org</span></a>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="Facebook" /></a>
+            <a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="Instagram" /></a>
+            <a href="#" aria-label="LinkedIn"><img src="assets/icon-linkedin-3.svg" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2017-2025 SEAQR. All rights reserved.</span>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

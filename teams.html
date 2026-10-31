@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team — SEAQR</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/logo-nav.png" alt="SEAQR" /></a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="teams.html" class="active">Team</a>
+        <a href="news.html">News</a>
+        <a href="products.html">Products</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="team-hero">
+    <div class="container">
+      <h1>The Minds Behind the Mission</h1>
+      <p>Meet the innovators, engineers, and thinkers shaping the future of data and technology.</p>
+    </div>
+  </section>
+
+  <!-- Team carousel -->
+  <section class="team-carousel" aria-label="Team members">
+    <div class="team-carousel-main">
+      <div class="team-featured">
+        <div class="team-featured-copy">
+          <div class="team-featured-head">
+            <h2 id="team-name">Andriy Fedorenko</h2>
+            <p id="team-role">CEO,&nbsp;Computer Science &amp; Biophysics</p>
+          </div>
+          <p id="team-bio">I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.</p>
+        </div>
+        <div class="team-featured-photo">
+          <img id="team-photo" src="assets/team-1.png" alt="Andriy Fedorenko" />
+        </div>
+      </div>
+      <button class="team-next" type="button" aria-label="Next team member">
+        <img src="assets/team-arrow.svg" alt="" />
+      </button>
+    </div>
+    <div class="team-avatars" id="team-avatars" role="tablist" aria-label="Select team member"></div>
+  </section>
+
+  <!-- Advisory board -->
+  <section class="advisory">
+    <div class="advisory-bg" aria-hidden="true">
+      <img src="assets/advisory-bg.png" alt="" />
+      <div class="advisory-overlay"></div>
+    </div>
+    <div class="container advisory-inner">
+      <h2>Advisory board</h2>
+      <div class="advisory-grid">
+        <article class="advisory-card">
+          <div class="advisory-photo"><img src="assets/advisory-1.png" alt="Dr. Tim Gallaudet" /></div>
+          <div class="advisory-copy">
+            <h3>Dr. Tim Gallaudet</h3>
+            <p>
+              <a href="https://www.linkedin.com/in/rear-admiral-tim-gallaudet-phd-us-navy-ret-b18185149/" target="_blank" rel="noopener noreferrer">Rear Admiral, US Navy (ret)</a>,
+              <br />Fmr acting head, NOAA,
+              <br />CEO, Ocean STL Consulting
+            </p>
+          </div>
+        </article>
+        <article class="advisory-card">
+          <div class="advisory-photo"><img src="assets/advisory-2.png" alt="Dr. Garry Nolan" /></div>
+          <div class="advisory-copy">
+            <h3>Dr. Garry Nolan</h3>
+            <p>Rachford and Carlota A. Harris Professor at Stanford University School of Medicine</p>
+          </div>
+        </article>
+        <article class="advisory-card">
+          <div class="advisory-photo"><img src="assets/advisory-3.png" alt="Joel Jewitt" /></div>
+          <div class="advisory-copy">
+            <h3>Joel Jewitt</h3>
+            <p>MSc Co-founder and SVP Strategic Operations at LiveRamp - NYSE:RAMP</p>
+          </div>
+        </article>
+        <article class="advisory-card">
+          <div class="advisory-photo"><img src="assets/advisory-4.png" alt="Former Industry Manager" /></div>
+          <div class="advisory-copy">
+            <h3>Former Industry Manager</h3>
+            <p>Partnerships and Sales Leader, Global Marketing Solutions at Meta</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-footer.png" alt="SEAQR" />
+          <h3>SEAQR is a registered 501(c)(3) non-profit organization</h3>
+          <p>All donations are tax deductible. Federal Tax ID: 83-0784739</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="teams.html">Teams</a>
+          <a href="projects.html">Projects</a>
+          <a href="products.html">Products</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p class="contact-line"><img src="assets/icon-location.svg" alt="" /><span>P.O. Box 27134, San Francisco, CA 94127</span></p>
+          <a class="contact-line" href="mailto:info@seaqr.org"><img src="assets/icon-email.svg" alt="" /><span>info@seaqr.org</span></a>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="Facebook" /></a>
+            <a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="Instagram" /></a>
+            <a href="#" aria-label="LinkedIn"><img src="assets/icon-linkedin-3.svg" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2017-2025 SEAQR. All rights reserved.</span>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const TEAM = [
+      {
+        name: "Andriy Fedorenko",
+        role: "CEO,\u00a0Computer Science & Biophysics",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-1.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      },
+      {
+        name: "Roman Maksymiuk",
+        role: "Data Scientist",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-2.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      },
+      {
+        name: "Mger Babayan",
+        role: "MSc. Computer Scientist, Principal Application Developer at AT&T",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-3.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      },
+      {
+        name: "Andrii Krutchenko",
+        role: "Mechanical Engineer at Mercury Systems",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-4.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      },
+      {
+        name: "Kaustav Tamuly",
+        role: "Software Engineer, ML\u00a0@Microsoft Research\u00a0| BITS-Pilani",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-5.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      },
+      {
+        name: "Fatima Baig",
+        role: "Web Developer, UI/UX Designer, Adobe Illustrator, Automation (n8n, Make)",
+        bio: "I build and design modern websites with a strong focus on UI/UX, using tools like WordPress, Figma, and Adobe Illustrator to create clean, user-friendly visuals. Alongside design, I create smart automations using n8n and Make to streamline workflows, connect apps, and save time by turning manual tasks into efficient systems.",
+        photo: "assets/team-6.png",
+        avatarBg: "#000000",
+        desaturate: true
+      },
+      {
+        name: "Hamid Reza",
+        role: "Radnezhad, MSc, Mechanical Engineer",
+        bio: "I’m a Data Scientist and technical leader with experience across academic research and product development, leading machine learning for aerial object detection and tracking at Harvard’s Galileo Project and delivering end-to-end data-driven products in industry.",
+        photo: "assets/team-7.png",
+        avatarBg: "#6e2323",
+        desaturate: false
+      }
+    ];
+
+    let active = 0;
+    const nameEl = document.getElementById("team-name");
+    const roleEl = document.getElementById("team-role");
+    const bioEl = document.getElementById("team-bio");
+    const photoEl = document.getElementById("team-photo");
+    const avatarsEl = document.getElementById("team-avatars");
+
+    function renderAvatars() {
+      avatarsEl.innerHTML = TEAM.map((m, i) => `
+        <button
+          type="button"
+          class="team-avatar-btn${i === active ? " is-active" : ""}${m.desaturate ? " is-luma" : ""}"
+          style="background:${m.avatarBg}"
+          aria-label="${m.name}"
+          aria-selected="${i === active}"
+          data-index="${i}"
+        >
+          <img src="${m.photo}" alt="" />
+        </button>
+      `).join("");
+    }
+
+    function showMember(index) {
+      active = (index + TEAM.length) % TEAM.length;
+      const m = TEAM[active];
+      nameEl.textContent = m.name;
+      roleEl.textContent = m.role;
+      bioEl.textContent = m.bio;
+      photoEl.src = m.photo;
+      photoEl.alt = m.name;
+      photoEl.classList.toggle("is-luma", !!m.desaturate);
+      photoEl.parentElement.classList.toggle("is-luma", !!m.desaturate);
+      renderAvatars();
+    }
+
+    avatarsEl.addEventListener("click", (e) => {
+      const btn = e.target.closest(".team-avatar-btn");
+      if (!btn) return;
+      showMember(Number(btn.dataset.index));
+    });
+
+    document.querySelector(".team-next").addEventListener("click", () => {
+      showMember(active + 1);
+    });
+
+    showMember(0);
+  </script>
+</body>
+</html>

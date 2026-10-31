@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — SEAQR</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/logo-nav.png" alt="SEAQR" /></a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="teams.html">Team</a>
+        <a href="news.html">News</a>
+        <a href="products.html">Products</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="projects-hero">
+    <div class="projects-hero-bg" aria-hidden="true">
+      <img src="assets/projects-hero-bg.png" alt="" />
+    </div>
+    <div class="container projects-hero-content">
+      <h1>Turning Research Into Real-World Intelligence</h1>
+      <p>A showcase of active projects and breakthrough technologies transforming AI research into real-world impact. From Antarctic marine conservation and Baltic Sea anomaly research to advanced aerial detection and global industrial deployments, these projects highlight how our AI systems move from the lab to extreme environments, delivering real-time detection, reliable performance, and measurable results across oceans, industries, and continents.</p>
+      <div class="projects-hero-actions">
+        <a class="btn-outline" href="#projects">View Projects</a>
+        <a class="btn-outline btn-outline-soft" href="products.html">Our Technology</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark projects-list" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Explore Our Active Projects</h2>
+        <p class="section-copy">Advancing marine AI technology across the globe through innovative partnerships and cutting-edge research.</p>
+      </div>
+      <div class="project-cards">
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/proj-1.png" alt="Research Vessel Noosfera" /></div>
+          <div class="project-card-meta">
+            <span><img src="assets/icon-calendar.svg" alt="" /> October 31, 2025</span>
+            <span><img src="assets/icon-pin.svg" alt="" /> Antarctic Waters</span>
+          </div>
+          <h3>Research Vessel Noosfera</h3>
+          <p class="project-card-sub">Multi-Whale Detection and Tracking with Noosfera</p>
+          <p class="project-card-body">Together with the National Antarctic Scientific Center of Ukraine, we deployed our AI system aboard the research vessel Noosfera for real-time detection and tracking of cetaceans across vast oceanic regions, enabling better conservation efforts and behavioral research in Antarctic waters.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/proj-2.png" alt="Baltic Sea Research" /></div>
+          <div class="project-card-meta">
+            <span><img src="assets/icon-calendar.svg" alt="" /> June 06, 2025</span>
+            <span><img src="assets/icon-pin.svg" alt="" /> Stockholm, Sweden</span>
+          </div>
+          <h3>Baltic Sea Research</h3>
+          <p class="project-card-sub">UAP Research with NORDITA</p>
+          <p class="project-card-body">Collaborative research initiative with NORDITA (Nordic Institute for Theoretical Physics) applying anomaly detection algorithms to multimodal data collected in the Baltic Sea.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/proj-3.png" alt="Ocean Monitoring" /></div>
+          <div class="project-card-meta">
+            <span><img src="assets/icon-calendar.svg" alt="" /> August 30, 2025</span>
+            <span><img src="assets/icon-pin.svg" alt="" /> Ukraine</span>
+          </div>
+          <h3>Ocean Monitoring</h3>
+          <p class="project-card-sub">Aerial Detection and Tracking System</p>
+          <p class="project-card-body">Advanced AI-powered defense technology for real-time detection and tracking of airborne targets, enabling early warning systems and predictive analysis of potential aerial threats to enhance national security and air defense capabilities.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="milestones">
+    <div class="container">
+      <h2 class="milestones-label">Development Milestones</h2>
+      <div class="milestones-grid">
+        <div class="milestones-media">
+          <img src="assets/milestones-lab.png" alt="Development milestones" />
+        </div>
+        <div class="milestones-copy">
+          <div>
+            <h3>From Lab to Global Impact</h3>
+            <p>Our journey began in a university research lab, where early prototypes demonstrated the potential of AI-powered object detection. Those first systems were bulky, expensive, and required extensive calibration. But they proved a fundamental concept: machines could be taught to see and understand objects with superhuman speed and consistency.</p>
+          </div>
+          <div>
+            <h3>Real-World Deployment</h3>
+            <p>The transition from laboratory to real-world deployment presented challenges we hadn't anticipated. Industrial environments are harsh, unpredictable, and unforgiving. Our systems had to perform flawlessly in dusty factories, cold warehouses, and vibrating production lines. Each deployment taught us valuable lessons that shaped our technology.</p>
+          </div>
+          <div>
+            <h3>Partnership &amp; Refinement</h3>
+            <p>Through partnerships with forward-thinking manufacturers, we refined our approach. We learned that the best AI systems aren't just accurate—they're reliable, maintainable, and integrate seamlessly into existing workflows. This insight drove us to create not just detection algorithms, but complete systems designed for the realities of industrial operation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-stats">
+    <div class="projects-stats-bg" aria-hidden="true">
+      <img src="assets/projects-stats-bg.png" alt="" />
+    </div>
+    <div class="container projects-stats-row">
+      <div class="stat-card">
+        <strong>500+</strong>
+        <span>Active installations across 6 continents</span>
+      </div>
+      <div class="stat-card">
+        <strong>10B+</strong>
+        <span>Objects detected monthly</span>
+      </div>
+      <div class="stat-card">
+        <strong>99.7%</strong>
+        <span>Average system uptime</span>
+      </div>
+      <div class="stat-card">
+        <strong>35+</strong>
+        <span>Industries served globally</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="join-cta">
+    <div class="container join-cta-inner">
+      <h2>Join Our Next Project</h2>
+      <p>We're always looking for innovative partners to collaborate with on groundbreaking detection projects. Let's shape the future together.</p>
+      <form class="join-cta-form" action="mailto:info@seaqr.org" method="get">
+        <input type="email" name="email" required placeholder="Enter your email address" />
+        <button type="submit" class="join-cta-btn">
+          <span>Partner With Us</span>
+          <img src="assets/icon-arrow-right.svg" alt="" />
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-footer.png" alt="SEAQR" />
+          <h3>SEAQR is a registered 501(c)(3) non-profit organization</h3>
+          <p>All donations are tax deductible. Federal Tax ID: 83-0784739</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="teams.html">Teams</a>
+          <a href="projects.html">Projects</a>
+          <a href="products.html">Products</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p class="contact-line"><img src="assets/icon-location.svg" alt="" /><span>P.O. Box 27134, San Francisco, CA 94127</span></p>
+          <a class="contact-line" href="mailto:info@seaqr.org"><img src="assets/icon-email.svg" alt="" /><span>info@seaqr.org</span></a>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="Facebook" /></a>
+            <a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="Instagram" /></a>
+            <a href="#" aria-label="LinkedIn"><img src="assets/icon-linkedin-3.svg" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2017-2025 SEAQR. All rights reserved.</span>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
