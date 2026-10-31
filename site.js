@@ -15,6 +15,18 @@ menuButton?.addEventListener('click', () => {
 });
 navigation?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 window.matchMedia('(max-width: 1000px)').addEventListener('change', closeMenu);
+
+// Application links open their native disclosure before scrolling to the story.
+function openLinkedUseCase() {
+  let id;
+  try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+  const target = document.getElementById(id);
+  if (!target?.matches('details.usecase-detail')) return;
+  target.open = true;
+  requestAnimationFrame(() => target.scrollIntoView({block: 'start', behavior: 'instant'}));
+}
+openLinkedUseCase();
+window.addEventListener('hashchange', openLinkedUseCase);
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') {
     closeMenu();
@@ -36,7 +48,10 @@ document.querySelectorAll('[data-tabs]').forEach(group => {
   }
   function selectFromURL() {
     const target = tabs.find(tab => `#${tab.dataset.hash}` === location.hash);
-    if (target) select(target);
+    if (target) {
+      select(target);
+      requestAnimationFrame(() => group.scrollIntoView({block: 'start', behavior: 'instant'}));
+    }
   }
   tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => select(tab, true));

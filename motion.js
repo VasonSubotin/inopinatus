@@ -34,7 +34,9 @@
     '.closing-cta .wrap > *', '.page-hero .eyebrow', '.page-hero h1', '.page-hero .lead',
     '.hero-product', '.principle-grid > *', '.product-card', '.architecture-grid > *',
     '.method-grid > *', '.discipline-grid > *', '.pilot-steps > *', '.field-detail-grid > *',
-    '.company-mission .wrap > *', '.team-grid > *', '.contact-page aside', '.contact-page form'
+    '.company-mission .wrap > *', '.team-grid > *', '.contact-page aside', '.contact-page form',
+    '.problem-layout > div', '.usecase-features > article', '.benefits-heading > *',
+    '.benefit-lines article', '.camera-row', '.sensor-groups article', '.hardware-hero-image'
   ].join(',');
   const reveals = [...document.querySelectorAll(revealSelectors)];
   const photoFrames = [...document.querySelectorAll('.field-photo')];
