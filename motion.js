@@ -38,7 +38,10 @@
     '.problem-layout > div', '.usecase-features > article', '.benefits-heading > *',
     '.benefit-lines article', '.camera-row', '.sensor-groups article', '.hardware-hero-image',
     '.mission-offers article', '.mission-system-grid > *', '.system-offer-list article',
-    '.mission-work-steps article', '.hardware-category'
+    '.mission-work-steps article', '.hardware-category',
+    '.v3-heading > *', '.v3-tech-grid article', '.v3-problem-grid article',
+    '.v3-offer-grid article', '.v3-benefit-grid article', '.v3-package-grid article',
+    '.v3-partner-grid article', '.v3-product-layout > *', '.v3-project-grid article'
   ].join(',');
   const reveals = [...document.querySelectorAll(revealSelectors)];
   const photoFrames = [...document.querySelectorAll('.field-photo')];
