@@ -169,8 +169,10 @@ if (form) {
   const interest = new URLSearchParams(location.search).get('interest');
   const select = form.elements.interest;
   const interestAliases = {
-    'Tier 1 visual-acoustic system': 'Tier 1 reduced-camera system',
-    'Tier 2 integration': 'Tier 2 onboard AI system',
+    'Tier 1 visual-acoustic system': 'Tier 1 multi-sensor system',
+    'Tier 1 reduced-camera system': 'Tier 1 multi-sensor system',
+    'Tier 2 integration': 'Tier 2 expanded site system',
+    'Tier 2 onboard AI system': 'Tier 2 expanded site system',
     'Three-device sensor suite': 'Tier 3 radar suite'
   };
   const selectedInterest = interestAliases[interest] || interest;
