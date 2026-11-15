@@ -168,7 +168,13 @@ let enquiry = '';
 if (form) {
   const interest = new URLSearchParams(location.search).get('interest');
   const select = form.elements.interest;
-  if ([...select.options].some(option => option.value === interest)) select.value = interest;
+  const interestAliases = {
+    'Tier 1 visual-acoustic system': 'Tier 1 reduced-camera system',
+    'Tier 2 integration': 'Tier 2 onboard AI system',
+    'Three-device sensor suite': 'Tier 3 radar suite'
+  };
+  const selectedInterest = interestAliases[interest] || interest;
+  if ([...select.options].some(option => option.value === selectedInterest)) select.value = selectedInterest;
   form.addEventListener('submit', event => {
     event.preventDefault();
     const data = new FormData(form);
